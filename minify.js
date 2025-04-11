@@ -49,7 +49,7 @@ function minifyJavaScript(input) {
     window.getSelection().addRange(range);
     document.execCommand('copy');
 
-    copyBtn.textContent = 'Копійовано!';
+    copyBtn.textContent = '📋 Скопійовано!';
     setTimeout(() => {
       copyBtn.textContent = '📋 Копіювати результат';
     }, 1500);
